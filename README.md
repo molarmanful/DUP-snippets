@@ -17,7 +17,12 @@ To get the most out of these snippets, you should be at least somewhat familiar 
 ```
 [0[^][^^:\%1+]#]
 ```
-Top of stack is set to `0`. Also leaves stack length as top of stack.
+Top of stack is set to `0`. Also leaves array length as top of stack.
+### Array to Stack
+```
+[[1-$;$][\]#%%]
+```
+Assumes array length is top of stack.
 ### Reverse Stack
 ```
 [0[^][^^:\%1+]#%0[$;$][\1+]#%%]
@@ -31,10 +36,20 @@ This one takes top of stack and moves it to bottom of stack:
 ```
 [0[^][^^:\%1+]#0;[\1-$][$;]#%]
 ```
+However, if you know how many items you want to rotate, the following snippets are much easier.
 Rotating top 4 items:
 ```
 [(@)\]
 ```
+Rotating top 5 items:
+```
+[((@)\)\]
+```
+Rotating top 6 items:
+```
+[(((@)\)\)\]
+```
+See the pattern?
 ### Print String/Array
 String:
 ```
@@ -45,3 +60,18 @@ Array (space-separated):
 [[1-$;$][.' ,]#%%]
 ```
 This assumes that array length is top of stack.
+### Inclusive Range
+```
+[[^^<][^1+\]#%]
+```
+Takes 2 numbers and creates a range in their place.
+### Stack Sum
+Destructive version:
+```
+[[^][+]#]
+```
+Non-destructive version:
+```
+[0[^][^^:\%1+]#0\[1-$;$][@+\]#%%]
+```
+To get stack product, just replace the last `+` with `*`.

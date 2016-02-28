@@ -31,6 +31,10 @@ This one takes top of stack and moves it to bottom of stack:
 ```
 [0[^][^^:\%1+]#0;[\1-$][$;]#%]
 ```
+Rotating top 4 items:
+```
+[(@)\]
+```
 ### Print String/Array
 String:
 ```

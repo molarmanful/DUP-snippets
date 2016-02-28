@@ -3,15 +3,19 @@ DUP is a great language as is. However, there are times when the current set of 
 ## Notes
 All snippets are lambdas to allow you to adapt them to your needs. If you have any snippets you want to see in this collection, feel free to pull-request with your edits!
 ## Let's start!
+### Clear Stack
+```
+[[$][%]#]
+```
 ### Stack Length
 ```
 [1[$ø][1+]#1-]
 ```
-### Stack -> Array
+### Stack to Array
 ```
 [0[^][^^:\%1+]#]
 ```
-Where top of stack is set to `0`.
+Top of stack is set to `0`. Also leaves stack length as top of stack.
 ### Reverse Stack
 ```
 [0[^][^^:\%1+]#%0[$;$][\1+]#%%]
@@ -25,7 +29,13 @@ This one takes top of stack and moves it to bottom of stack:
 ```
 [0[^][^^:\%1+]#0;[\1-$][$;]#%]
 ```
-### Clear Stack
+### Print String/Array
+String:
 ```
-[[$][%]#]
+[0[$;$][,1+]#%%]
 ```
+Array (space-separated):
+```
+[[1-$;$][.' ,]#%%]
+```
+This assumes that array length is top of stack.

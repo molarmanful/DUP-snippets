@@ -2,6 +2,8 @@
 DUP is a great language as is. However, there are times when the current set of operators just isn't enough. DUP Snippets is about to change all that.
 ## Notes
 All snippets are lambdas to allow you to adapt them to your needs. If you have any snippets you want to see in this collection, feel free to pull-request with your edits!
+
+To get the most out of these snippets, you should be at least somewhat familiar with DUP already. If you aren't, don't worry; DUP is easy to learn.
 ## Let's start!
 ### Clear Stack
 ```

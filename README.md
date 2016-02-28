@@ -7,6 +7,11 @@ All snippets are lambdas to allow you to adapt them to your needs. If you have a
 ```
 [1[$ø][1+]#1-]
 ```
+### Stack -> Array
+```
+[0[^][^^:\%1+]#]
+```
+Where top of stack is set to `0`.
 ### Reverse Stack
 ```
 [0[^][^^:\%1+]#%0[$;$][\1+]#%%]

@@ -87,7 +87,11 @@ To get stack product, just replace the last `+` with `*`.
 ```
 [[`$~][]#%]
 ```
-### Bitwise Left Shift
+### Bitwise Left Shift (`<<`)
 ```
-[[$][\$+\1-]#%]
+[[$][\2*\1-]#%]
+```
+### Bitwise Right Shift (`>>`)
+```
+[[$][\2/\%\1-]#%]
 ```

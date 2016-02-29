@@ -82,7 +82,7 @@ To get stack product, just replace the last `+` with `*`.
 ```
 ### Integer Square Root
 ```
-[1[^^/\%^=~][1+]#]
+[1[^^/\%^=~][1+]#\%]
 ```
 ### Get Entire Input
 ```

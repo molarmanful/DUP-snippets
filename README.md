@@ -75,6 +75,10 @@ Non-destructive version:
 [0[^][^^:\%1+]#0\[1-$;$][@+\]#%%]
 ```
 To get stack product, just replace the last `+` with `*`.
+### Nth Power
+```
+[^a:[1-$][\a;*\]#%]
+```
 ### Integer Square Root
 ```
 [1[^^/\%^=~][1+]#]

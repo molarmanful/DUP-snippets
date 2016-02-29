@@ -37,6 +37,7 @@ This one takes top of stack and moves it to bottom of stack:
 [0[^][^^:\%1+]#0;[\1-$][$;]#%]
 ```
 However, if you know how many items you want to rotate, the following snippets are much easier.
+
 Rotating top 4 items:
 ```
 [(@)\]

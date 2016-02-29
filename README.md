@@ -83,3 +83,7 @@ To get stack product, just replace the last `+` with `*`.
 ```
 [1[^^/\%^=~][1+]#]
 ```
+### Get Entire Input
+```
+[[`$~][]#%]
+```

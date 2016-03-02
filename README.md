@@ -86,7 +86,7 @@ To get stack product, just replace the last `+` with `*`.
 ```
 ### Get Entire Input
 ```
-[`$~][]#%]
+[[`$~][]#%]
 ```
 ### Bitwise Left Shift (`<<`)
 ```

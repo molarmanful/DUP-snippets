@@ -96,3 +96,11 @@ To get stack product, just replace the last `+` with `*`.
 ```
 [[$][\2/\%\1-]#%]
 ```
+### Uppercase a Character
+```
+32~&,
+```
+### Lowercase a Character
+```
+32^~&|,
+```
